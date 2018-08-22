@@ -13,6 +13,7 @@
 		3462B1AF212D5AD5000898DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3462B1AE212D5AD5000898DF /* main.m */; };
 		3462B1B9212D5AD5000898DF /* CAShapeLayer____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3462B1B8212D5AD5000898DF /* CAShapeLayer____Tests.m */; };
 		3462B1C4212D5AD5000898DF /* CAShapeLayer____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3462B1C3212D5AD5000898DF /* CAShapeLayer____UITests.m */; };
+		3462B1D3212D5AE4000898DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3462B1D2212D5AE4000898DF /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		3462B1BF212D5AD5000898DF /* CAShapeLayer画图学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CAShapeLayer画图学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3462B1C3212D5AD5000898DF /* CAShapeLayer____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer____UITests.m"; sourceTree = "<group>"; };
 		3462B1C5212D5AD5000898DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3462B1D1212D5AE4000898DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3462B1D2212D5AE4000898DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				3462B1AA212D5AD5000898DF /* LaunchScreen.storyboard */,
 				3462B1AD212D5AD5000898DF /* Info.plist */,
 				3462B1AE212D5AD5000898DF /* main.m */,
+				3462B1D1212D5AE4000898DF /* ViewController.h */,
+				3462B1D2212D5AE4000898DF /* ViewController.m */,
 			);
 			path = "CAShapeLayer画图学习";
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3462B1D3212D5AE4000898DF /* ViewController.m in Sources */,
 				3462B1AF212D5AD5000898DF /* main.m in Sources */,
 				3462B1A7212D5AD5000898DF /* AppDelegate.m in Sources */,
 			);
